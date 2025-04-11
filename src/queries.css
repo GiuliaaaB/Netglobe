@@ -1,0 +1,524 @@
+@media (max-width: 1024px) {
+    .hero h1 {
+        font-size: 36px;
+        margin-top: 250px;
+    }
+    
+    .hero p {
+        font-size: 14px;
+    }
+
+    .nav-links {
+        gap: 30px;
+    }
+
+    .solution-card {
+        width: 45%; 
+    }
+
+    .about {
+        gap: 30px;
+    }
+
+    .icons-box {
+        width: 65%;
+        padding: 15px;
+    }
+
+    .about-text {
+        width: 60%;
+    }
+
+    .about-image {
+        width: 40%;
+    }
+
+    .partners-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .blog-title {
+        text-align: center;
+    }
+
+    .blog-title h2 {
+        font-size: 22px;
+    }
+
+    .blog-title span {
+        font-size: 40px;
+    }
+
+    .blog-content {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .blog-card {
+        width: 47%;
+    }
+
+    .work-title {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .logo-box {
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .overlay button {
+        width: 140px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .title-solution {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .solutions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .solution-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .info {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .info-text {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .info-text h2 {
+        font-size: 20px;
+        margin-left: 0;
+        
+    }
+    
+    .info-text p {
+        font-size: 18px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .title-about {
+        text-align: center;
+        width: 80%;
+        margin: 0;
+    }
+
+    .icons-box {
+        width: 20%;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .icons-box img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .about-text {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .about-text h2 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .about-text h2 span {
+        font-size: 40px;
+    }
+
+    .about-text p {
+        font-size: 18px;
+    }
+
+    .about-image {
+        width: 100%;
+        height: 300px;
+    }
+
+    .partners-grid {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px;
+    }
+
+    .grid-item {
+        height: 160px;
+    }
+
+    .blog-title h2 {
+        font-size: 24px;
+    }
+
+    .blog-title span {
+        font-size: 30px;
+    }
+
+    .blog-card {
+        width: 100%;
+    }
+
+    .work-title {
+        font-size: 48px;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .logo-box {
+        width: 250px;
+        height: 80px;
+    }
+
+    .logo-box img {
+        width: 200px;
+        height: auto;
+    }
+
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .jobs {
+        grid-template-columns: 1fr; 
+        width: 100%;
+        gap: 15px;
+    }
+
+    .job {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .job h3 {
+        font-size: 16px;
+    }
+
+    .job p {
+        font-size: 13px;
+    }
+
+    .sidebar {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .sidebar nav ul {
+        width: 100%;
+    }
+
+    .sidebar nav ul li {
+        font-size: 24px;
+    }
+
+    .subscribe {
+        width: 140px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .footer {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footer-left,
+    .footer-center,
+    .footer-right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-right img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .nav-links a {
+        font-size: 20px;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
+
+    .hero p {
+        font-size: 13px;
+        margin-bottom: 1.5rem;
+    }
+
+    .overlay button {
+        width: 120px;
+        height: 35px;
+        font-size: 13px;
+    }
+
+    .navbar {
+        margin-bottom: 1.5rem;
+    }
+
+    header {
+        padding: 1rem; 
+    }
+    .title-solution {
+        font-size: 20px;
+        padding: 8px;
+    }
+    .solution-card {
+        width: 100%; 
+        padding: 15px;
+    }
+
+    .solution-card h2 {
+        font-size: 14px;
+    }
+
+    .solution-card p {
+        font-size: 12px;
+    }
+
+    .title-about {
+        font-size: 16px;
+        padding: 10px 20px;
+        width: 90%;
+    }
+
+    .info-text {
+        text-align: left;
+        padding: 10px;
+    }
+
+    .info-image{
+        width: 100%;
+        height: 400px;
+    }
+
+    .info button{
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    .icons-box {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center; 
+        align-items: center;
+        width: 60%;
+        padding: 10px;
+    }
+
+    .icons-box img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .about-text {
+        padding: 20px;
+    }
+
+    .about-text h2 {
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    .about-text h2 span {
+        font-size: 38px;
+    }
+
+    .about-text p {
+        font-size: 18px;
+    }
+
+    .about-image {
+        height: 250px;
+    } 
+
+    .partners-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    .grid-item {
+        height: 140px;
+        padding: 15px;
+    }
+
+    .partners-container h2 {
+        font-size: 28px;
+    }
+
+    .blog-container {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .blog-title {
+        width: 80%;
+        height: 5%;
+        margin-left: 10%;
+        padding: 10px;
+    }
+
+    .blog-title h2 {
+        font-size: 20px;
+    }
+
+    .blog-title span {
+        font-size: 26px;
+    }
+
+    .blog-card {
+        width: 80%; 
+        max-width: 400px; 
+        padding: 15px;
+        margin-left: 10%;
+    }
+
+    .plus-card {
+        width: 15px; 
+        height: 15px;
+    }
+
+    .plus-card img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .black-box{
+        display: none;
+    }
+
+    .work-header {
+        width: 60%;
+        height: auto;
+        margin-left: 20%;
+    }
+
+    .work-title {
+        font-size: 30px;
+        height: auto;
+        padding: 5px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .logo-box {
+        display: none; 
+    }
+
+    .jobs {
+        width: 80%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .job h3 {
+        font-size: 14px;
+    }
+
+    .job p {
+        font-size: 12px;
+    }
+
+    .sidebar {
+        width: 80%;
+        padding: 10px;
+    }
+
+    .sidebar nav ul li {
+        font-size: 20px;
+        margin-right: 20%;
+    }
+
+    .subscribe {
+        width: 120px;
+        height: 35px;
+        font-size: 15px;
+        margin-left: 3%;
+    }
+
+    .footer {
+        padding: 15px;
+    }
+
+    .footer p {
+        margin-right: 20px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .footer-right img {
+        max-width: 40%;
+    }	
+
+    #tel {
+        text-decoration: none;
+        color: #FFF;
+    }
+}
+
